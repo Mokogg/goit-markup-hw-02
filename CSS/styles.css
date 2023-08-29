@@ -1,17 +1,25 @@
 body {
   font-family: "Roboto" sans-serif;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 .title-logo {
+  font-weight: 700;
+  line-height: 21px;
+  font-size: 18px;
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
   text-decoration: none;
   color: var(--navyblue, #2e2f42);
-  font-family: Raleway;
+
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  border: 0px;
-  margin-top: 24px;
-  margin-bottom: 0px;
   margin-left: 156px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .title-web {
@@ -23,49 +31,93 @@ li {
 }
 
 ul {
-  margin-left: 0;
-
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }
 
-nav > ul > li > a {
+.navigation {
+  display: flex;
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--white, #fff);
+  color: white;
+}
+
+.title-web {
+  margin-right: 5px;
+}
+
+/* Стилі для списку навігації */
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+/* Стилі для елементів списку */
+.nav-list li {
+  padding-right: 40px;
+  margin-top: 24px;
+}
+
+/* Стилі для посилань */
+.nav-list li a {
   color: var(--navyblue, #2e2f42);
   font-size: 16px;
   font-weight: 500;
+  line-height: 24px;
   letter-spacing: 0.32px;
   text-decoration: none;
+  transition: color 0.3s ease;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+/* Зміна кольору посилання при наведенні */
+.nav-list li a:hover {
+  color: #ff9900;
 }
 
 .nav-studio {
-  border: 0px;
-  margin-bottom: 0;
-  margin-left: 347px;
-}
-.nav-portfolio {
-  border: 0px;
-  margin-bottom: 0;
-  margin-left: 435px;
-}
-.nav-contacts {
-  border: 0px;
-  margin-bottom: 0;
-  margin-left: 541px;
+  margin-left: 76px;
+  margin-top: 24px;
 }
 
-.mail-link {
-  color: var(--slate, #434455);
-  letter-spacing: 0.32px;
-  text-decoration: none;
-  margin-bottom: 0;
-  border: 0px;
-  margin-left: 940px;
+/* Стилі для героїчного блоку */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 100px 0;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  background: var(--navyblue, #2e2f42);
 }
 
-.tel-link {
-  color: var(--slate, #434455);
-  letter-spacing: 0.32px;
-  text-decoration: none;
-  margin-bottom: 0;
-  border: 0px;
-  margin-left: 1133px;
+/* Стилі для заголовка героїчного блоку */
+.title-hero {
+  color: var(--white, #fff);
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Стилі для кнопки героїчного блоку */
+.hero button {
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
