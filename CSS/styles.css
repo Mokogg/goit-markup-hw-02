@@ -1,6 +1,7 @@
 .title-studio {
+  text-decoration: none;
   color: var(--navyblue, #2e2f42);
-  font-family: "Raleway", "sans-serif";
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -8,17 +9,14 @@
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-nav > li {
-  text-transform: none;
-}
+
 .title-web {
   color: var(--iris, #4d5ae5);
-
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
