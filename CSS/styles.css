@@ -223,7 +223,7 @@ button:active {
   text-transform: capitalize;
 }
 
-.section-team > ul > li {
+.card-1 {
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -237,7 +237,7 @@ button:active {
   gap: 8px;
 }
 
-.section-team > ul > li > h3 {
+.card-1-title {
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
@@ -249,7 +249,7 @@ button:active {
   padding-top: 32px;
 }
 
-.section-team > ul > li > p {
+.card-1-p {
   color: #434455;
   text-align: center;
   font-family: Roboto;
@@ -295,6 +295,16 @@ button:active {
 }
 
 .section-portfolio > ul > li > h3 {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.title-portfolio {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
