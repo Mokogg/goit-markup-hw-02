@@ -58,11 +58,11 @@ ul {
   padding: 0;
 }
 
-.address {
+.contacts {
   font-style: normal;
 }
 
-.address > ul > li > a {
+.contacts > ul > li > a {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
@@ -74,18 +74,17 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.address li {
+.contacts li {
   display: inline-block;
   margin-right: 40px;
   font-style: normal;
 }
 
-.address a {
+.contacts a {
   font-style: normal;
 }
 
-.mail-link,
-.tel-link {
+.contacts-link {
   color: #434455;
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -93,13 +92,11 @@ ul {
   margin-left: 940px;
 }
 
-.tel-link:hover,
-.mail-link:hover {
+.contacts-link:hover {
   color: #404bbf;
 }
 
-.tel-link:focus,
-.mail-link:focus {
+.contacts-link:focus {
   color: #404bbf;
 }
 
