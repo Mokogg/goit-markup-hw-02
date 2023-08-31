@@ -142,7 +142,9 @@ ul {
   margin-bottom: 188px;
   cursor: pointer;
 }
-
+.button:focus {
+  background-color: #404bbf;
+}
 .button:hover {
   background-color: #404bbf;
 }
@@ -355,7 +357,7 @@ button:active {
   text-decoration: none;
 }
 
-.title-web-2 {
+.title-web-2- {
   font-family: "Raleway", sans-serif;
   color: #f4f4fd;
   font-size: 18px;
