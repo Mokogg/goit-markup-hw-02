@@ -84,7 +84,8 @@ ul {
   font-style: normal;
 }
 
-.mail-link {
+.mail-link,
+.tel-link {
   color: #434455;
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -92,12 +93,14 @@ ul {
   margin-left: 940px;
 }
 
-.tel-link {
-  color: #434455;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  font-size: 16px;
-  margin-left: 1133px;
+.tel-link:hover,
+.mail-link:hover {
+  color: #404bbf;
+}
+
+.tel-link:focus,
+.mail-link:focus {
+  color: #404bbf;
 }
 
 /* hero */
@@ -124,6 +127,8 @@ ul {
 }
 
 .button {
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -135,6 +140,11 @@ ul {
   margin-top: 48px;
   margin-left: 636px;
   margin-bottom: 188px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #404bbf;
 }
 
 button:active {
@@ -147,55 +157,30 @@ button:active {
   display: none;
 }
 
-.section-strategy > ul > li > h3 {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-
-.title-strategy {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-
-.title-punltuality {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-
-.section-strategy > ul > li > p {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
+.title-strategy,
+.title-punltuality,
 .title-diligence,
 .title-technologies {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.p-strategy,
+.p-punktuality,
+.p-diligence,
+.p-technologies {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .section-strategy > ul > li {
@@ -225,13 +210,13 @@ button:active {
 }
 
 .section-team > h2 {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   text-align: center;
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -251,7 +236,7 @@ button:active {
 }
 
 .section-team > ul > li > h3 {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   text-align: center;
   font-family: Roboto;
   font-size: 20px;
@@ -263,7 +248,7 @@ button:active {
 }
 
 .section-team > ul > li > p {
-  color: var(--slate, #434455);
+  color: #434455;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -286,7 +271,7 @@ button:active {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-left: 611px;
@@ -304,11 +289,11 @@ button:active {
   gap: 32px;
   flex-shrink: 0;
   border: 1px solid #e7e9fc;
-  background: var(--white, #fff);
+  background: #fff;
 }
 
 .section-portfolio > ul > li > h3 {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
   font-style: normal;
