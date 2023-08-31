@@ -156,10 +156,7 @@ button:active {
   display: none;
 }
 
-.title-strategy,
-.title-punltuality,
-.title-diligence,
-.title-technologies {
+.title-strategy {
   color: #2e2f42;
   font-family: Roboto;
   font-size: 20px;
@@ -169,10 +166,7 @@ button:active {
   letter-spacing: 0.4px;
 }
 
-.p-strategy,
-.p-punktuality,
-.p-diligence,
-.p-technologies {
+.p-strategy {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
