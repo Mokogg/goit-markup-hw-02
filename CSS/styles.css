@@ -45,6 +45,12 @@ ul {
   margin-top: 24px;
   margin-left: 347px;
 }
+.nav-studio:hover {
+  color: #404bbf;
+}
+.nav-studio:active {
+  color: #404bbf;
+}
 .nav-list {
   padding: 0;
 }
@@ -70,6 +76,10 @@ ul {
 .address li {
   display: inline-block;
   margin-right: 40px;
+  font-style: normal;
+}
+.address a {
+  font-style: normal;
 }
 
 .mail-link {
