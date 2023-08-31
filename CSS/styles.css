@@ -1,3 +1,9 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
 ul {
   list-style-type: none;
 }
@@ -7,11 +13,11 @@ ul {
 }
 .title-logo {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -94,7 +100,7 @@ ul {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
   padding-top: 188px;
   padding-left: 472px;
@@ -102,6 +108,8 @@ ul {
 }
 
 button {
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
   color: #fff;
   border: 0;
   border-radius: 4px;
