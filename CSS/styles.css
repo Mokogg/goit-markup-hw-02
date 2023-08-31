@@ -313,12 +313,27 @@ button:active {
 }
 
 .title-logo-2 {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.title-web-2 {
+  font-family: "Raleway", sans-serif;
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
