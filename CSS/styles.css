@@ -24,9 +24,6 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  position: relative;
-  top: 24px;
-  left: 156px;
 }
 
 .title-web {
@@ -44,18 +41,9 @@ ul {
   text-decoration: none;
 }
 
-.nav-studio {
-  margin-top: 24px;
-  margin-left: 347px;
-}
-
 .nav-studio:hover,
 .nav-studio:focus {
   color: #404bbf;
-}
-
-.nav-list {
-  padding: 0;
 }
 
 .contacts {
@@ -75,8 +63,6 @@ ul {
 }
 
 .contacts li {
-  display: inline-block;
-  margin-right: 40px;
   font-style: normal;
 }
 
@@ -89,7 +75,6 @@ ul {
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-size: 16px;
-  margin-left: 940px;
 }
 
 .contacts-link:hover {
@@ -118,9 +103,6 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  padding-top: 188px;
-  padding-left: 472px;
-  padding-right: 472px;
 }
 
 .button {
@@ -134,9 +116,6 @@ ul {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
-  margin-top: 48px;
-  margin-left: 636px;
-  margin-bottom: 188px;
   cursor: pointer;
 }
 .button:focus {
