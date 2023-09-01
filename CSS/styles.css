@@ -214,7 +214,7 @@ button:active {
   text-transform: capitalize;
 }
 
-.card-1 {
+.team-list {
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -228,7 +228,7 @@ button:active {
   gap: 8px;
 }
 
-.card-1-title {
+.team-list-title {
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
@@ -240,7 +240,7 @@ button:active {
   padding-top: 32px;
 }
 
-.card-1-p {
+.team-list-text {
   color: #434455;
   text-align: center;
   font-family: Roboto;
