@@ -90,8 +90,6 @@ ul {
 
 .hero {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
   flex-shrink: 0;
 }
 
@@ -134,9 +132,7 @@ button:active {
 
 /* strategy  */
 
-.title-delete {
-  display: none;
-}
+
 
 .title-strategy {
   color: #2e2f42;
@@ -158,14 +154,6 @@ button:active {
   letter-spacing: 0.02em;
 }
 
-.section-strategy>ul>li {
-  display: flex;
-  width: 264px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  display: inline-block;
-}
 
 /* our-team */
 
@@ -195,12 +183,6 @@ button:active {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  display: flex;
-  width: 232px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
 }
 
 .team-list-title {
@@ -240,20 +222,9 @@ button:active {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  margin-left: 611px;
-  margin-top: 120px;
-  margin-bottom: 95px;
 }
 
 .section-portfolio>ul>li {
-  display: flex;
-  width: 360px;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  flex-shrink: 0;
   border: 1px solid #e7e9fc;
   background: #fff;
 }
@@ -291,8 +262,6 @@ button:active {
 /* footer */
 
 .footer {
-  width: 1440px;
-  height: 312px;
   flex-shrink: 0;
   background-color: #2e2f42;
 }
@@ -310,14 +279,6 @@ button:active {
   margin-right: 1020px;
 }
 
-.footer>a {
-  display: inline-flex;
-  height: 24px;
-  align-items: center;
-  flex-shrink: 0;
-  margin-left: 156px;
-  margin-top: 100px;
-}
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
